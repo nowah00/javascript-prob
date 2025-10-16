@@ -6,7 +6,7 @@
 
 A) function = myFunc() {}
 
-**B) function myFunc() {}**
+-> **B) function myFunc() {}** 
 
 C) def myFunc() {}
 
@@ -20,7 +20,7 @@ A) 함수를 복사한다
 
 B) 함수를 삭제한다
 
-**C) 함수를 실행한다**
+-> **C) 함수를 실행한다**
 
 D) 함수를 주석 처리한다
 
@@ -28,7 +28,7 @@ D) 함수를 주석 처리한다
 
 3 다음 중 함수의 반환값(return value)을 올바르게 사용하는 것은?
 
-**A) return x + y;**
+-> **A) return x + y;**
 
 B) print(x + y);
 
@@ -42,7 +42,7 @@ D) output(x + y);
 
 A) 함수 외부에서만 사용 가능하다.
 
-**B) 함수 내부에서 전달받은 값을 저장하는 변수이다.**
+-> **B) 함수 내부에서 전달받은 값을 저장하는 변수이다.**
 
 C) 항상 숫자여야 한다.
 
@@ -56,7 +56,7 @@ A) function()myFunc;
 
 B) myFunc[];
 
-**C) myFunc();**
+-> **C) myFunc();**
 
 D) function myFunc;
 
@@ -66,7 +66,7 @@ D) function myFunc;
 
 A) stop
 
-**B) return**
+-> **B) return**
 
 C) end
 
@@ -80,7 +80,7 @@ A) null
 
 B) 0
 
-**C) undefined**
+-> **C) undefined**
 
 D) false
 
@@ -92,7 +92,7 @@ A) function() { console.log("Hello"); }
 
 B) function sayHello() { console.log("Hi"); }
 
-**C) var say = function sayHello() {};**
+-> **C) var say = function sayHello() {};**
 
 D) function = hello() {};
 
@@ -100,7 +100,7 @@ D) function = hello() {};
 
 9 함수 선언식(Declaration)과 함수 표현식(Expression)의 차이는?
 
-**A) 선언식은 호이스팅(hoisting)된다.**
+-> **A) 선언식은 호이스팅(hoisting)된다.**
 
 B) 표현식은 선언 전에 사용 가능하다.
 
@@ -119,7 +119,7 @@ console.log(add(2, 3));
 
 A) 23
 
-**B) 5**
+-> **B) 5**
 
 C) "2+3"
 
@@ -138,7 +138,7 @@ A) Hi + name
 
 B) "Hi name"
 
-**C) Hi Yumi**
+-> **C) Hi Yumi**
 
 D) undefined
 
@@ -148,7 +148,7 @@ D) undefined
 
 A) function f(a=10, b){}
 
-**B) function f(a,b=10){}** ⇒ 뒤쪽(오른쪽)부터 기본값을 주는게 일반적
+-> **B) function f(a,b=10){}** ⇒ 뒤쪽(오른쪽)부터 기본값을 주는게 일반적
 
 C) function f(a,b==10){}
 
@@ -160,7 +160,7 @@ D) function f(a,b=10:){}
 
 A) 전역 범위
 
-**B) 지역 범위**
+-> **B) 지역 범위**
 
 C) 파일 전체
 
@@ -172,7 +172,7 @@ D) 함수 외부
 
 A) 함수 안에서만 사용된다.
 
-**B) 함수 외부에서 선언되어 모든 함수가 접근 가능하다.**
+-> **B) 함수 외부에서 선언되어 모든 함수가 접근 가능하다.**
 
 C) return 뒤에서만 가능하다.
 
@@ -193,7 +193,7 @@ test();
 
 A) 10
 
-**B) 5**
+-> **B) 5**
 
 C) undefined
 
@@ -208,7 +208,7 @@ function square(x){ return x*x; }
 console.log(square());
 ```
 
-**A) NaN**
+-> **A) NaN**
 
 B) undefined
 
@@ -220,7 +220,7 @@ D) Error
 
 17 화살표 함수(Arrow Function)를 정의한 올바른 예시는?
 
-**A) const add = (a,b) => a + b;**
+-> **A) const add = (a,b) => a + b;**
 
 B) function add(a,b) => a + b;
 
@@ -237,7 +237,7 @@ const multiply = (a,b=2) => a*b;
 console.log(multiply(5));
 ```
 
-**A) 10**
+-> **A) 10**
 
 B) 7
 
@@ -253,7 +253,7 @@ A) 반드시 이름이 있어야 한다.
 
 B) 선언 전에 호출해도 된다.
 
-**C) 변수에 할당할 수 있다.**
+-> **C) 변수에 할당할 수 있다.**
 
 D) return문을 쓸 수 없다.
 
@@ -267,7 +267,7 @@ console.log(say());
 
 ```
 
-**A) Hello**
+-> **A) Hello**
 
 B) undefined
 
@@ -283,7 +283,7 @@ A) 호출되지 않는 함수
 
 B) 함수의 인수로 전달되는 함수
 
-**C) 반환되는 함수**
+-> **C) 반환되는 함수**
 
 D) 전역함수
 
@@ -298,7 +298,7 @@ run( ? )
 
 A) fn(){}
 
-**B) run();**
+-> **B) run();**
 
 C) function() { console.log("done"); }
 
@@ -322,7 +322,7 @@ A) outer
 
 B) inner
 
-**C) inside**
+-> **C) inside**
 
 D) undefined
 
@@ -334,7 +334,7 @@ A) function test()();
 
 B) function(){}();
 
-**C) (function(){ console.log("run"); })();**  ⇒  괄호로 감싸서 함수 표현식으로 만든 뒤, 마지막에 ()로 즉시 호출
+-> **C) (function(){ console.log("run"); })();**  ⇒  괄호로 감싸서 함수 표현식으로 만든 뒤, 마지막에 ()로 즉시 호출
 
 D) run(){};
 
@@ -348,7 +348,7 @@ D) run(){};
 })(3,4); 
 ```
 
-**A) 7**
+-> **A) 7**
 
 B) 34
 
@@ -374,7 +374,7 @@ A) 2
 
 B) 5
 
-**C) 7**
+-> **C) 7**
 
 D) undefined
 
@@ -386,7 +386,7 @@ A) 함수 외부 변수를 수정할 수 있다.
 
 B) 함수 내부의 변수를 외부에서 직접 접근할 수 있다.
 
-**C) 외부 함수의 변수를 기억하는 함수이다.**
+-> **C) 외부 함수의 변수를 기억하는 함수이다.**
 
 D) return이 없는 함수이다.
 
@@ -411,7 +411,7 @@ A) 1,1
 
 B) 0,1
 
-**C) 1,2**
+-> **C) 1,2**
 
 D) 2,3
 
@@ -425,7 +425,7 @@ B) 매개변수로 전달 가능
 
 C) 반환값으로 사용 가능
 
-**D) 반드시 이름을 가져야 함**
+-> **D) 반드시 이름을 가져야 함**
 
 ---
 
@@ -433,7 +433,7 @@ C) 반환값으로 사용 가능
 
 A) 시간
 
-**B) 함수**
+-> **B) 함수**
 
 C) 문자열
 
@@ -452,7 +452,7 @@ sayHi();
 
 A) 전역 객체(window)
 
-**B) undefined**
+-> **B) undefined**
 
 C) null
 
@@ -464,7 +464,7 @@ D) 빈 객체
 
 A) 새로운 this를 바인딩한다
 
-**B) 상위 스코프의 this를 사용한다**
+-> **B) 상위 스코프의 this를 사용한다**
 
 C) 항상 undefined이다
 
@@ -474,7 +474,7 @@ D) 전역 객체를 가리킨다
 
 33 map() 함수의 인수는?
 
-**A) 콜백 함수**
+-> **A) 콜백 함수**
 
 B) 객체
 
@@ -486,7 +486,7 @@ D) 배열
 
 34  filter() 함수의 반환값은?
 
-**A) 조건을 만족하는 요소만 모은 새 배열**
+-> **A) 조건을 만족하는 요소만 모은 새 배열**
 
 B) true/false
 
@@ -502,7 +502,7 @@ D) 문자열
 [1,2,3].map(x => x*2);
 ```
 
-**A) [2,4,6]**
+-> **A) [2,4,6]**
 
 B) [1,2,3]
 
@@ -520,7 +520,7 @@ D) undefined
 
 A) [1,3]
 
-**B) [2,4]**
+-> **B) [2,4]**
 
 C) [0,2,4]
 
@@ -534,7 +534,7 @@ D) [1,2,3,4]
 [1,2,3].reduce((acc,cur)=>acc+cur,0);
 ```
 
-**A) 6**
+-> **A) 6**
 
 B) [1,2,3]
 
@@ -553,7 +553,7 @@ console.log(f());
 
 A) undefined
 
-**B) {name:"Yumi"}**
+-> **B) {name:"Yumi"}**
 
 C) name:"Yumi"
 
@@ -568,7 +568,7 @@ const greet = (name="Guest") => "Hello " + name;
 console.log(greet()); 
 ```
 
-**A) Hello Guest**
+-> **A) Hello Guest**
 
 B) Hello
 
@@ -582,7 +582,7 @@ D) Error
 
 A) null
 
-**B) undefined**
+-> **B) undefined**
 
 C) 0
 
